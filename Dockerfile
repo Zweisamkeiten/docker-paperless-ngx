@@ -19,6 +19,7 @@ ARG BUILD_PACKAGES="\
   jq \
   libatlas-base-dev \
   libleptonica-dev \
+  libmysqlclient-dev \
   libpq-dev \
   libqpdf-dev \
   libtool \
