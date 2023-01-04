@@ -3,7 +3,7 @@ FROM ghcr.io/linuxserver/baseimage-ubuntu:focal
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-ARG PAPERLESS_RELEASE
+ARG PAPERLESS_RELEASE=v1.11.3
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="alex-phillips"
 
