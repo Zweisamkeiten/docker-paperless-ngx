@@ -19,7 +19,6 @@ ARG BUILD_PACKAGES="\
   jq \
   libatlas-base-dev \
   libleptonica-dev \
-  libmysqlclient-dev \
   libpq-dev \
   libqpdf-dev \
   libtool \
@@ -34,6 +33,7 @@ ARG RUNTIME_PACKAGES="\
   gnupg \
   gunicorn \
   icc-profiles-free \
+  libmysqlclient-dev \
   imagemagick \
   liblept5 \
   libmagic-dev \
